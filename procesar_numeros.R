@@ -9,7 +9,7 @@ leer_numeros <- function(archivo) {
   }
 }
 main <- function() {
-  archivo_entrada <- "C:\\Users\\Usuario01\\Downloads\\SprintR\\Lab2\\1729760754907-numeros.txt"
+  archivo_entrada <- "numeros.txt"
   vector <- leer_numeros(archivo_entrada)
   media <- mean(vector)
   mediana <- median(vector)
@@ -30,3 +30,4 @@ main <- function() {
 }
 
 main()
+
